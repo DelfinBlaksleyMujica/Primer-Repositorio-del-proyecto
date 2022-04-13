@@ -237,6 +237,9 @@
     padding:0.3rem 3rem;
 }
 
+#BotonEnviar:hover{
+    transform:scale(1.5)
+}
 @media (max-width:767px) {
     #BotonEnviar{
         margin: 20px 356px;
@@ -413,8 +416,8 @@ background-color: black;}
 .world__Textos__1 p{
     background-color:white;
     font-family: "Bungee";
-    color:black
-    font-size: small;
+    color:black;
+    font-size:small;
     width:100%;
     border-radius: 20px;
 }    
@@ -428,7 +431,7 @@ background-color: black;}
 .world__Textos__2 p{
     background-color:white;
     font-family: "Bungee";
-    color:black
+    color:black;
     font-size: small;
     width:100%;
     border-radius: 20px;
@@ -649,3 +652,12 @@ hr {
     width: 100%;
 }
 
+
+.navBar .menuDeNavegacion li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.navBar .menuDeNavegacion li a img:hover{
+    transform:scale(1.3)
+}
